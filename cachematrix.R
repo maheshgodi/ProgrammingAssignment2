@@ -36,13 +36,13 @@ cacheSolve <- function(x, ...) {
 
 #### Test cases 1
 
-m <- matrix(rnorm(16), nrow = 4)   ## Test with rnorm
-cm <- makeCacheMatrix(m) 
-cm$get() 
-cacheSolve(cm)  
+## m <- matrix(rnorm(16), nrow = 4)   ## Test with rnorm
+## cm <- makeCacheMatrix(m) 
+## cm$get() 
+## cacheSolve(cm)  
 
 #### Test cases 2
-m <- matrix(data = 1:96 , nrow = 12 , ncol = 8)  ## Test with regrural matrix 
-cm <- makeCacheMatrix(m) 
-cm$get() 
-cacheSolve(cm)  
+## m <- matrix(data = 1:96 , nrow = 12 , ncol = 8)  ## Test with regrural matrix 
+## cm <- makeCacheMatrix(m) 
+## cm$get() 
+## cacheSolve(cm)  
